@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+build/
+include/
+lib/
+src/3rdTools/googletest/googletest-release-1.8.1
