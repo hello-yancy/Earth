@@ -7,4 +7,8 @@ project(earth)
 # 添加子目录
 add_subdirectory(src)
 
-message("CMAKE_SOURCE_DIR ${CMAKE_SOURCE_DIR}")
+# 启用测试
+enable_testing()
+
+# 测试
+add_test(NAME UtilsTest COMMAND UtilsTest)
