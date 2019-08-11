@@ -35,4 +35,6 @@ bin/
 build/
 include/
 lib/
-src/3rdTools/googletest/googletest-release-1.8.1
+test/
+src/3rdTools/googletest/googletest-release-1.8.1/
+src/3rdTools/glog/glog-0.4.0/
